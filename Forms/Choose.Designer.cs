@@ -75,7 +75,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.continue2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = Decryptor.Resources.icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Choose";

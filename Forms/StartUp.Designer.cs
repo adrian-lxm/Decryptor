@@ -36,7 +36,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::Decryptor.Properties.Resources.Zeichenfläche_11;
+            this.pictureBox1.Image = Decryptor.Resources.splash_screen;
             this.pictureBox1.Location = new System.Drawing.Point(0, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(804, 451);
@@ -52,7 +52,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = Decryptor.Resources.icon;
             this.Name = "StartUp";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;

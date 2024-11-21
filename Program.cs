@@ -4,6 +4,7 @@ using System;
 using System.Windows.Forms;
 using System.IO;
 using Timer = System.Windows.Forms.Timer;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Decryptor
 {
@@ -28,8 +29,15 @@ namespace Decryptor
             if (!Directory.Exists(WorkPath + "\\Themes")) Directory.CreateDirectory(Program.WorkPath + "\\Themes");
             foreach (string path in Directory.GetFiles(WorkPath + "\\Themes"))
             {
-                Theme theme = (Theme) JsonTool.Deserialize(typeof(Theme), path);
+                Theme theme = (Theme)JsonTool.Deserialize(typeof(Theme), path);
                 ThemeTool.registeredThemes.Add(theme);
+            }
+            if (!File.Exists(Program.WorkPath + "\\settings.json"))
+            {
+                Settings set = new Settings();
+                set.font = new Font("Microsoft Tai Le", 8, FontStyle.Regular);
+                set.settedTheme = "White";
+                JsonTool.Serialize(set, Program.WorkPath + "\\settings.json");
             }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

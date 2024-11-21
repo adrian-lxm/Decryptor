@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q8o4Cr3bI30=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adria\\RiderProjects\\Decryptor\\Decryptor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adria\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

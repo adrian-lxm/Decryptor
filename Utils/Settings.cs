@@ -12,6 +12,7 @@ namespace Decryptor.Utils
     {
         public Font font { get; set; }
         public string settedTheme { get; set; }
+
     }
     
 }

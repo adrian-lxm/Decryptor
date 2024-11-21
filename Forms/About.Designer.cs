@@ -99,7 +99,7 @@ namespace Decryptor.Forms
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Decryptor.Properties.Resources.dec1_3_100;
+            this.pictureBox1.Image = Decryptor.Resources.symbol;
             this.pictureBox1.Location = new System.Drawing.Point(68, 110);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
@@ -131,7 +131,7 @@ namespace Decryptor.Forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = Decryptor.Resources.icon;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "About";
